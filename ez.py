@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, request
 import json, os
 
-
+#coucou
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 app = Flask(__name__, static_url_path='', static_folder="./static")
 
